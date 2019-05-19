@@ -14,6 +14,9 @@ Inside the api directory, you can run some built-in commands:
 `./gradlew bootRun or gradlew.bat bootRun`
 Runs the api locally. Open http://localhost:8080 to view it in the browser.
 
+*Tip* you will need to enable CORS in order for your Client to communicate with the API
+[Spring Rest CORS](https://spring.io/guides/gs/rest-service-cors/)
+
 
 ## client
 React frontend client bootstrapped by [create-react-app](https://facebook.github.io/create-react-app)
