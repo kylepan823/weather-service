@@ -1,0 +1,32 @@
+{
+  "cities": [
+    {
+      "name": "Melbourne",
+      "temperature": "15"
+    },
+    {
+      "name": "Sydney",
+      "temperature": "24"
+    },
+    {
+      "name": "Brisbane",
+      "temperature": "32"
+    },
+    {
+      "name": "Hobart",
+      "temperature": "5"
+    },
+    {
+      "name": "Perth",
+      "temperature": "40"
+    },
+    {
+      "name": "Adelaide",
+      "temperature": "30"
+    },
+    {
+      "name": "Darwin",
+      "temperature": "28"
+    }
+  ]
+}
