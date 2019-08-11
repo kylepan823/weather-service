@@ -5,7 +5,7 @@ import { loadWeather } from '../redux/actions/weather/weather.actions';
 import {Container, Row, Col, Table} from 'reactstrap';
 import City from "./City";
 
-class Weather extends Component {
+export class Weather extends Component {
 
     constructor(props) {
         super(props);
@@ -42,7 +42,7 @@ class Weather extends Component {
                 </Row>
             </Container>
         } else {
-            return <Container class='no-data'>
+            return <Container className='no-data'>
                 <Row>
                     <Col md={2}></Col>
                     <Col xs={12} md={8}>
