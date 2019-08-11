@@ -1,9 +1,7 @@
 # weather-service
-A simple weather service app template
+A simple weather service app demo
 
 ## Server
-Spring Boot API bootstrapped by [Spring Initializr](https://start.spring.io/)
-
 Inside the api directory, you can run some built-in commands:
 
 Run API: `./gradlew bootRun or gradlew.bat bootRun`
@@ -12,8 +10,6 @@ Run Unit Tests: `./gradlew test`
 
 
 ## Client
-React frontend client bootstrapped by [create-react-app](https://facebook.github.io/create-react-app)
-
 Inside the client directory, you can run some built-in commands:
 
 Install all dependencies: `npm install`
