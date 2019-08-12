@@ -37,7 +37,7 @@ export class Weather extends Component {
                     <Col md={2}></Col>
                 </Row>
             </Container>
-        } else {
+        } else if(this.props.weatherError) {
             return <Container className='no-data'>
                 <Row>
                     <Col md={2}></Col>
@@ -52,6 +52,7 @@ export class Weather extends Component {
                 </Row>
             </Container>
         }
+        return null;
     }
 
     renderWeatherTable(weatherData) {
