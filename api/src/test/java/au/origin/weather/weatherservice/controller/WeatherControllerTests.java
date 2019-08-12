@@ -1,6 +1,5 @@
 package au.origin.weather.weatherservice.controller;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,10 +17,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-import au.origin.weather.weatherservice.exception.WeatherException;
 import au.origin.weather.weatherservice.model.City;
 import au.origin.weather.weatherservice.model.Weather;
 import au.origin.weather.weatherservice.service.WeatherService;

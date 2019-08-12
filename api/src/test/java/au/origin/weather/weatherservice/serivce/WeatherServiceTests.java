@@ -1,33 +1,18 @@
 package au.origin.weather.weatherservice.serivce;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.skyscreamer.jsonassert.JSONAssert;
-import org.springframework.http.MediaType;
-import org.springframework.stereotype.Component;
-import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.test.web.servlet.RequestBuilder;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import au.origin.weather.weatherservice.exception.WeatherException;
 import au.origin.weather.weatherservice.model.City;
 import au.origin.weather.weatherservice.model.Weather;
 import au.origin.weather.weatherservice.service.WeatherService;
 
 public class WeatherServiceTests {
-  private static Weather weather = new Weather();
 
   @InjectMocks
   private WeatherService weatherService;  
