@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 
 class City extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         if (this.props.city) {
             return <tr className="city-row small">

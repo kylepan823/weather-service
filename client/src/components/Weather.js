@@ -7,10 +7,6 @@ import City from "./City";
 
 export class Weather extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         this.props.loadWeather()
     }

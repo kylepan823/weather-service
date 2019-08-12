@@ -1,6 +1,6 @@
 import {LOAD_WEATHER, LOAD_WEATHER_FAIL} from '../actions/weather/weather.types';
 
-export const reducer = (state = [], action = {}) => {
+export const reducer = (state = {}, action = {}) => {
     switch (action.type) {
         case LOAD_WEATHER:
             return {
@@ -12,11 +12,13 @@ export const reducer = (state = [], action = {}) => {
             if (action.payload && action.payload.data) {
                 return {
                     ...state,
+                    weather: null,
                     error: action.payload.data,
                 };
             } else {
                 return {
                     ...state,
+                    weather: null,
                     error: {status: 404, message: "Cannot find weather"},
                 };
             }
